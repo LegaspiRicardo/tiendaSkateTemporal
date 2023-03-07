@@ -6,31 +6,26 @@
 <main>
 
 
-<img src="images/skatePark2.jpg" alt="" class="imagen-portada">
-    <div class="row ">
-        <div class="col-6 mr-auto">
-            <div class="col-8 ml-auto texto-portada p-0">
+
+    <div class="row portada">
+        <img src="images/skatePark2.jpg" alt="" class="imagen-portada">
+        <div class="col-9 mx-auto">
+            <div class="col-9  texto-portada p-0">
                 <p class="">Tablas, tenis, adrenalina y diversión.</p>
                 <h1 class="">Nuestro estilo de vida</h1>
-                <p class="fuente-gris-claro">Visita nuestra tienda en linea y conoce todos nuestros productos.</p>
+                <p class="">Visita la tienda en linea y conoce todos nuestros productos.</p>
 
-                    <button class="mt-4  boton-portada">Ver mas</button>
-
+                    <button class="mt-2 boton-portada">Ver mas</button>
             </div>
-
-
-
         </div>
-
-
     </div>
 
 
     
     <div class="row text-center categorias">  
         <div class="col-3 p-0 categoriaItem">
-            <img src="images/tenisDalle.png" alt="" class="img-categorias">
-            <h3>Tenis</h3>
+            <img src="images/scooterDalle.png" alt="" class="img-categorias">
+            <h3>Scooters</h3>
         </div>
         <div class="col-3 p-0 categoriaItem">
             <img src="images/skateDalle1.png" alt="" class="img-categorias">
@@ -39,6 +34,10 @@
         <div class="col-3 p-0 categoriaItem">
             <img src="images/playeraDalle1.png" alt="" class="img-categorias">
             <h3>Playeras</h3>
+        </div>
+        <div class="col-3 p-0 categoriaItem">
+            <img src="images/cascoDalle.png" alt="" class="img-categorias">
+            <h3>Accesorios</h3>
         </div>
     </div>
 
@@ -160,7 +159,7 @@
             <h2>Tablas más vendidas</h2>
             <p class="col-8 mx-auto mt-5 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Aperiam a quos consequuntur eligendi commodi neque laboriosam minus explicabo adipisci deserunt!</p>
-            <button class="boton-portada mt-4">Ver más</button>
+            <button class="boton-portada mt-2">Ver más</button>
         </div>
     </div>
 
@@ -169,7 +168,7 @@
             <h2>Playeras favoritas</h2>
             <p class="col-8 mx-auto mt-5 text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Aperiam a quos consequuntur eligendi commodi neque laboriosam minus explicabo adipisci deserunt!</p>
-            <button class="boton-portada mt-4">Ver más</button>
+            <button class="boton-portada mt-2">Ver más</button>
         </div>
 
         <div class="col-6 mr-auto">
