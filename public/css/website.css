@@ -31,6 +31,7 @@ body {
     transition: 0.5s;
     animation-timing-function: ease-in-out;
     max-height: 60px;
+    width: 100%;
 }
 
 .navbar {
@@ -52,6 +53,7 @@ body {
     color: #fafafa;
     opacity: 0.8;
     padding: 0;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.373);
 }
 
 .navbar-brand:hover,
@@ -99,12 +101,13 @@ h1 {
     color: #fafafa;
     font-size: 85px;
     font-weight: bolder;
+    text-shadow: 2px 2px black;
 }
 
 .imagen-portada {
     position: absolute;
     top: 0px;
-    height: 1400px;
+    height: 1200px;
     width: 100%;
     filter: brightness(1.1);
 }
@@ -115,7 +118,6 @@ h1 {
 .categorias {
     justify-content: center;
     padding: 8% 0 0 0;
-
 }
 
 .categoriaItem{
@@ -232,8 +234,7 @@ padding: 5% 0;
     margin: 0;
     position: absolute;
     object-fit: cover;
-    opacity: 0.9;
-    filter: brightness(50%);
+    filter: brightness(40%);
 }
 
 .tendencias-carrusel {
@@ -243,8 +244,9 @@ padding: 5% 0;
 
 
 .blog {
-    background-color: #212426;
+    background-color: transparent;
     padding: 5% 0;
+    z-index: 1;
 }
 
 
@@ -268,8 +270,17 @@ padding: 5% 0;
 }
 
 .marcas-carrusel {
-    background-color: transparent ;
-    padding: 2% 0;
+    background-color: #212426 ;
+    margin: 0 0 5% 0;
+}
+
+.imagen-fondo-marcas{
+    width: 100%;
+    max-height: 200px;
+    margin: 0;
+    position: absolute;
+    object-fit: cover;
+    filter: brightness(80%);
 }
 
 .img-marca-carrusel {
@@ -280,7 +291,6 @@ padding: 5% 0;
 
 .contacto-form {
     background-color: transparent;
-    padding: 5% 0;
 }
 
 .form-btn {
@@ -543,4 +553,46 @@ h6 {
     text-align: left;
 }
 
+/* ------RESPONSIVE ----------*/
 
+
+@media only screen and (max-width: 1440px) {
+    .img-categorias {
+        width: 220px;
+        height: 220px;
+    }
+
+    .img-blog {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        position: relative;
+        border-radius: 5%;
+        opacity: 0.5;
+    }
+
+    .categorias {
+        padding: 8% 0 ;
+    }
+
+
+    .img-tabla-carrusel {
+        height: 180px;
+        min-width: 150px;
+    }
+
+    .img-ropa-carrusel {
+        height: 180px;
+        min-width: 150px;
+    }
+
+    .imagen-fondo-tendencias{
+        width: 100%;
+        max-height: 380px;
+        margin: 0;
+        position: absolute;
+        object-fit: cover;
+        opacity: 0.9;
+        filter: brightness(50%);
+    }
+}
